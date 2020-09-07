@@ -2,7 +2,7 @@ plugins:
   plugin_toxic_tags_enabled:
     default: false
     client: true
-  no_ads_for_tags_toxic:
+  expose_these_toxic_tags:
     client: true
     default: ""
     type: list

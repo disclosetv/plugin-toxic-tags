@@ -29,8 +29,8 @@ export default Ember.Component.extend({
         return (
             !topicTagsToxic &&
             (!topicListTag ||
-                !this.siteSettings.no_ads_for_tags_toxic ||
-                !this.siteSettings.no_ads_for_tags_toxic.split("|").includes(topicListTag))
+                !this.siteSettings.expose_these_toxic_tags ||
+                !this.siteSettings.expose_these_toxic_tags.split("|").includes(topicListTag))
         );
     },
 
