@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    plugin_toxic_tags_enabled: "Enable toxic tags plugin."
+    no_ads_for_tags_toxic: "Expose toxic tags on topic list and topic pages belonging to these tags."
